@@ -68,7 +68,7 @@ class BmiResultScreen extends StatelessWidget {
                       textAlign: TextAlign.center,
                       style: const TextStyle(
                         fontSize: 15,
-                        color: Colors.white,
+                        color: primaryColor,
                       ),
                     )
                   ],

@@ -19,14 +19,6 @@ class _BmiDataScreenState extends State<BmiDataScreen> {
   int age = 20;
   String? gender;
 
-  // double calculateBmi() {
-  //   double heightInMeter = height / 100;
-
-  //   //final bmi = weight / (heightInMeter * heightInMeter);
-  //   final bmi = weight / pow(heightInMeter, 2);
-  //   return bmi;
-  // }
-
   List<Widget> generateList(start, end) {
     List<Widget> weight = [];
     for (var i = start; i < end; i++) {
@@ -47,7 +39,7 @@ class _BmiDataScreenState extends State<BmiDataScreen> {
     return Scaffold(
       // backgroundColor: const Color(0xff0a0e21),
       appBar: AppBar(
-        elevation: 0,
+        //elevation: 0,
         title: const Text("BMI Calculator"),
       ),
       bottomNavigationBar: GestureDetector(
